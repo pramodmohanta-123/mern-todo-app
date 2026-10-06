@@ -4,8 +4,7 @@
   "main": "backend/server.js",
    "scripts": {
     "dev": "nodemon backend/server.js",
-    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
-    "start": "node backend/server.js"
+"build": "npm install && npm install --prefix Frontend/mern-todo-app && npm run build --prefix Frontend/mern-todo-app",    "start": "node backend/server.js"
   },
   "type": "module",
   "keywords": [],
